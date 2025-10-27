@@ -16,7 +16,13 @@ const showMenu = () => {
             // Check if we have a high score
             if (isHighScore(playerScore)) {
                 console.log('Congratulations! You scored a high score!');
-                const userName = prompt('Enter your name: ');
+                let userName;
+                do {
+                    userName = prompt('Enter your name: ');
+                    if (!userName) {
+                        console.log('Please enter a valid name;\n')
+                    }
+                } while (!userName);
                 // Add the high score to the leaderboard
                 addHighScore(userName, playerScore);
                 console.log('\nHigh Score recorded!')
@@ -32,7 +38,7 @@ const showMenu = () => {
             console.log('Exiting program!')
             break;
         } else {
-            console.log('Incorrect input, try again.')
+            console.log('Incorrect input, try again.\n')
         }
     }
 }
