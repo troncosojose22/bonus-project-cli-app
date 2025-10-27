@@ -1,5 +1,13 @@
-# CLI App
+# Quiz application!
 
-Find instructions for completing this project at the [Marcy Lab School Docs](https://marcylabschool.gitbook.io/marcy-lab-school-docs/mod-1-javascript-fundamentals/12-project-week).
+This project is a CLI quiz challenge, users can take a short 5 question quiz, save and see the top 5 highest scores. Utilizing an array of objects to hold the questions and all their information, and another one to hold the high scores, their names and the date when the score was achieved.
 
-Once you've completed the project, replace this content with a description of the project, an explanation of the available functionality with usage examples, and clear setup instructions. For an example, look at the README.md file in the [Task Manager Case Study](https://github.com/The-Marcy-Lab-School/swe-casestudy-1-cli-task-manager).
+## Usage Example
+
+Once the application is running, the user will be presented with 3 options.
+
+1. Start the quiz.
+2. See the current high scores
+3. Exit the program.
+
+If a high score is achieved after completing the quiz, the user will be prompted to enter their name, so it can be stored as a new high score.
