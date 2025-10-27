@@ -4,10 +4,26 @@ This project is a CLI quiz challenge, users can take a short 5 question quiz, sa
 
 ## Usage Example
 
-Once the application is running, the user will be presented with 3 options.
+Once the program is running, the user will be presented with 3 options.
 
 1. Start the quiz.
 2. See the current high scores
 3. Exit the program.
 
 If a high score is achieved after completing the quiz, the user will be prompted to enter their name, so it can be stored as a new high score.
+
+## Setup
+
+Follow these steps to get the program started:
+
+```shell
+# Clone the repo
+git clone [repo_url]
+cd [repo_name]
+
+# Install dependencies
+npm install
+
+# Run the src/main.js file
+node src/main.js
+```
